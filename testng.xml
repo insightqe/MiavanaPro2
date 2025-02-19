@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="All Test Suite">-->
+<!--    <test verbose="2" preserve-order="true" name="C:/Users/sarala padmaperuma/IdeaProjects/MiavanaPro2">-->
+<!--        <classes/>-->
+<!--    </test>-->
+<!--</suite>-->
+
+<!--later can convert in to parallel browser testing-->
+<suite name="suite">
+    <test thread-count="5" name="test">
+        <parameter name="os" value="Windows"></parameter>
+        <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+            <class name="RegistrationPageTest"></class>
+        </classes>
+    </test>
+</suite>
