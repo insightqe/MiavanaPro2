@@ -29,7 +29,7 @@ public class VerifySuperAdminAccessTenants extends TestBase {
         Assert.assertEquals("Welcome to MyAvana Admin.",homePage.getWelcomeMessage());
     }
 
-    @Test(dependsOnMethods = "1")
+    @Test
     public void validateTenantManagementTab(){
         loginToHomePage();
         HomePage homePage=new HomePage(driver);
